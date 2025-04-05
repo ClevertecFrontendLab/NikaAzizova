@@ -1,5 +1,6 @@
 import './App.css';
 
+import Header from '~/components/Header/Header';
 import { useGetPostsQuery } from '~/query/services/posts.ts';
 
 function App() {
@@ -7,7 +8,9 @@ function App() {
 
     return (
         <>
-            <div>Start sprint 1</div>
+            <div>
+                <Header />
+            </div>
         </>
     );
 }
